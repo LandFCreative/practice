@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #69b29f;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+
+}
+
+img {
+    width: 450px;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #772345;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+.gift-img {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("/BDimages/gift-cover.jpg");
+    background-size: cover;
+}
+
+/*
+Challenge:
+Swap the gift paper image out with
+the happy.gif when you hover over it!
+*/
+
+#gift-img-happy:hover { 
+   background-image: url("BDimages/happy.gif");
+   width: 300px;
+   height: 300px;
+}
+
+#gift-img-hot:hover { 
+    background-image: url("BDimages/heart.gif");
+    background-size: 51%;
+}
+
+#gift-img-amazing:hover{ 
+    background-image: url("BDimages/amazing.gif");
+    background-size: 100%;
+}
+
+#gift-img-hobo:hover{ 
+    background-image: url("BDimages/hobo.gif");
+    background-size: 110;
+}
+
+#gift-img-cheers { 
+    height: 200px;
+}
+#gift-img-cheers:hover{ 
+    background-image: url("BDimages/cheers.gif");
+    background-size: 110;
+    height: 200px;
+
+}
+
+
+.footer {
+    font-style: italic;
+padding: 50px;
+
+}
+
+
+a href="https://scrimba.com/learn/htmlandcss" target=" blank";
